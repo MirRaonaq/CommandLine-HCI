@@ -1,0 +1,34 @@
+./" Manpage for Mir's project 1"
+.TH commandline 1 "2019-02-15" "V1.8" project1 man page
+.SH NAME
+line.java
+
+.SH DESCRIPTION
+Project 1 runs basic commands listed in the OPTIONS
+
+.SH SYNOPSIS
+java -jar line.jar argument
+
+.SH OPTIONS
+.IP --help,-h
+This command will present the options of the program
+.IP --version,-v
+This command will present the version of the program
+.IP --library,-l
+Along with the specified library. This command will present text from the library.
+.IP --outfile,-o
+This will output text into a .txt file
+.IP --mode,-m
+This will output a paragraph, words, or bullet points
+.IP --count,-c
+This command will count the number of paragraphs, words, or bullets
+.IP --html,-t
+This command will output text in HTML format.
+.IP --generate,-g
+This command should take you into interactive mode
+
+.SH BUGS
+Doesn't run many commands
+
+.SH AUTHOR
+Mir Raonaq

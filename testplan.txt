@@ -1,0 +1,25 @@
+In order to run the program, change directory onto the project.jar file using terminal. Once you have reached the directory, of the .jar file...
+
+Type: java -jar project.jar
+
+Then type in any of the functions below... for example java -jar project.jar -h
+
+Help option - Run help using --help or -h. This command will present the options of the program
+
+Version option - Run version using --version or -v. This command will present the version of the program
+
+Library option - Run library using --library or -l along with the specified library. 
+For example  java -jar project.jar --library -v
+This command will present text from the library.
+
+Outfile option - Run outfile using --outfile or –o with a name for your text file. This will output text into a .txt file. However, if no name for the file is specified, then a file will not be created
+
+Mode option - Run mode using --mode or -m. This will output a paragraph, words, or bullet points in lorem.
+
+Count option - Run using --count or -c. This command will count the number of paragraphs, words, or bullets in lorem.
+
+Html option - Run using --html or -t. This command will output lorem text in HTML format.
+
+Generate option - Run using --generate or -g. This command should take you into interactive mode. But it may not work
+
+The program will automatically quit after you run one command. If you wish to continue to run commands simply type in another command. For example java -jar project.jar -v
